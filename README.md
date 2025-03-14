@@ -3,7 +3,8 @@ Name: Tanush Kumar
 Date: 3/14/25
 Project Name: Tip Calculator
 Description:  recreate the image 
-Peer review: 
+Peer review: Trey
+> Comments: Works as intended, but could use a couple minor fixes to the design, though it needs responsiveness.
 
 
 
