@@ -4,7 +4,7 @@ Date: 3/14/25
 Project Name: Tip Calculator
 Description:  recreate the image 
 Peer review: Trey
-> Comments: Works as intended, but could use a couple minor fixes to the design, though it needs responsiveness.
+> Comments: Works as intended, but could use a couple minor fixes to the design, also it needs responsiveness.
 
 
 
