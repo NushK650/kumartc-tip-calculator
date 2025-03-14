@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const TitleBgComponent = () => {
-  const [bill, setBill] = useState(""); // Initialize as empty string
+  const [bill, setBill] = useState("");
   const [tip, setTip] = useState(5);
-  const [numberOfPeople, setNumberOfPeople] = useState(""); // Initialize as empty string
+  const [numberOfPeople, setNumberOfPeople] = useState(""); 
   const [tipAmount, setTipAmount] = useState(0);
   const [tipPerPerson, setTipPerPerson] = useState(0);
   const [totalPerPerson, setTotalPerPerson] = useState(0);
@@ -68,10 +68,10 @@ const TitleBgComponent = () => {
           <div className="pl-10 pt-5 p-5">
             <p className="text-md font-semibold">Bill</p>
             <div className="rounded-md border-none bg-slate-200 flex justify-evenly focus:ring-8 p-1">
-              <img src="./assets/icon-dollar.svg" alt="Dollar Icon" />
+              <img className="pr-20" src="./assets/icon-dollar.svg" alt="Dollar Icon" />
               <input
                 type="text"
-                className="indent-20 rounded-sm border-none bg-slate-200 focus:ring-0 h-6 text-[#125155]"
+                className="indent-40 rounded-sm border-none bg-slate-200 focus:ring-0 h-6 text-[#125155]"
                 value={bill}
                 onChange={handleBillChange}
               />
@@ -131,7 +131,7 @@ const TitleBgComponent = () => {
               <img className="pr-20" src="./assets/icon-person.svg" alt="Person Icon" />
               <input
                 type="text"
-                className="indent-20 rounded-sm border-none bg-slate-200 focus:ring-0 h-6 text-[#125155]"
+                className="indent-40 rounded-sm border-none bg-slate-200 focus:ring-0 h-6 text-[#125155]"
                 value={numberOfPeople}
                 onChange={handleNumberOfPeopleChange}
               />
