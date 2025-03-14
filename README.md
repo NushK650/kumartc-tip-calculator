@@ -1,4 +1,14 @@
 # React + Vite
+Name: Tanush Kumar
+Date: 3/14/25
+Project Name: Tip Calculator
+Description:  recreate the image 
+Peer review: 
+
+
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
